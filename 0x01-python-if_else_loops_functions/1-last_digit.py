@@ -4,7 +4,6 @@ number = random.randint(-10000, 10000)
 if number > 0:
     Lastdigit = number % 10
 else:
-    number < 0:
     Lastdigit = number % -10
 
 print("Last digit of", number, "is", Lastdigit, end=" ")
